@@ -30,7 +30,7 @@
 <script>
 import {mapGetters ,mapMutations} from "vuex"
 export default {
-  name: "Profile-side",
+  name: "Profileside",
   computed: {
     ...mapGetters(['activeRoom',"windowSize","windowHeight"])
   },

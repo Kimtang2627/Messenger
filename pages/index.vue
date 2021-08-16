@@ -26,7 +26,7 @@
         <div v-else-if="masterRoom.length == 0 && activeRoom == null">You have no one to chat , Please create a chat room</div>
 
         <div class="profile-wrapper" v-show="activeRoom && activeRoom.roomName">
-          <Profile-side />
+          <Profileside />
           <Media />
         </div>
       </div>
@@ -45,7 +45,7 @@
         <div v-else-if="masterRoom.length == 0 && activeRoom == null">You have no one to chat , Please create a chat room</div>
 
         <div class="profile-wrapper" v-show="profile && activeRoom.roomName">
-          <Profile-side />
+          <Profileside />
           <Media />
         </div>
       </div>

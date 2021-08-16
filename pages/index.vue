@@ -7,7 +7,7 @@
       <div class="mobile-chatbox d-flex flex-center" v-if="activeRoom">
         <Chatbox v-if="!profile" />
         <div v-else class="mobile-profile-wrapper">
-          <Profile-side />
+          <Profileside />
           <Media />
         </div>
       </div>

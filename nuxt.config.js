@@ -23,7 +23,7 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     'balm-ui/dist/balm-ui.css',
-    '../Messenger/components/utils.scss'
+    './components/utils.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

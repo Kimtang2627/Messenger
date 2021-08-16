@@ -158,7 +158,7 @@ export default {
 
     .content-wrapper:hover {
       border-radius: 0 !important;
-      border-right: 3px solid #ed702d !important;
+      border-right: 3px solid #6495ed !important;
       background: #fff3ec !important;
       box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.07);
     }
